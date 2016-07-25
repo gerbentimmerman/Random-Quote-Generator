@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Machine</title>
+
+    // Stylesheets
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    // Javascript
+    <script src="assets/js/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<script type="text/javascript" src="javascript/generator.js"></script>
+<div class="container-fluid">
+    <div class="row well vertical-center-row col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+        <h1 class="text-center">Random Quote Generator</h1>
+        <div class="quote-text">
+            <blockquote><i class="fa fa-quote-left"></i><span id="text"></span><i class="fa fa-quote-right"></i></blockquote>
+        </div>
+        <div class="quote-text text-right">
+            <span id="author"></span>
+        </div>
+        <div class="col-sm-12 buttons">
+            <div class="text-left">
+                <a href="#" id="tweet" class="btn btn-primary button"><i class="fa fa-twitter"> </i> Tweet</a>
+                <button id="getMessage" type="submit" class="btn btn-primary button">
+                    New Quote
+                </button></div>
+        </div>
+    </div>
+</div>
+<footer class="footer text-center">Mady by <a href="https://nl.linkedin.com/in/gerbentimmerman" target="_blank">Gerben</a></footer>
+</body>
+</html>
